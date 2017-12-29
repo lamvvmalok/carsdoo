@@ -265,7 +265,33 @@
             </ul>
           </li>
 
-       
+         <li class="side-nav-item <?php if($menuActivo == 'Banners') echo 'active' ?>">
+            <a href="#banners">
+              <i class="nav-item-caret"></i>
+              <i class="nav-item-icon icon ion-bag"></i>
+              Banners Slider
+            </a>
+            <ul id="banners" class="side-nav-child <?php if($menuActivo == 'Banners Slider') echo 'open' ?>">
+              <li class="side-nav-item-heading">
+                <a href="#" class="side-nav-back">
+                  <i class="nav-item-caret"></i>
+                  Banners Slider
+                </a>
+              </li>
+              <li class="side-nav-item <?php if($menuHijoActivo == 'Lista de Banners Slider') echo 'active' ?>">
+                <a href="publicidad-lista.htm">
+                  <i class="nav-item-icon icon ion-navicon-round"></i>
+                  Lista de Banners Slider
+                </a>
+              </li>
+              <li class="side-nav-item <?php if($menuHijoActivo == 'Agregar Banner Slider') echo 'active' ?>">
+                <a href="publicidad-editar.htm">
+                  <i class="nav-item-icon icon ion-plus-round"></i>
+                  Agregar Banner Slider
+                </a>
+              </li>
+            </ul>
+          </li>
 
 
 
